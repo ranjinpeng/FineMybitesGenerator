@@ -1,0 +1,45 @@
+Manifest-Version: 1.0
+Bundle-Description: The MyBatis parent POM.
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-SymbolicName: org.mybatis.generator.mybatis-generator-core
+Bundle-ManifestVersion: 2
+Bnd-LastModified: 1520739640654
+Bundle-DocURL: http://www.mybatis.org/mybatis-generator/mybatis-genera
+ tor-core/
+Bundle-Vendor: MyBatis.org
+Import-Package: javax.xml.parsers,org.apache.log4j,org.apache.tools.an
+ t,org.apache.tools.ant.types,org.w3c.dom,org.xml.sax
+Tool: Bnd-0.0.357
+Export-Package: org.mybatis.generator.ant;version="1.3.2.fix",org.myba
+ tis.generator.codegen.mybatis3.xmlmapper;version="1.3.2.fix",org.myba
+ tis.generator.codegen.ibatis2.dao.templates;version="1.3.2.fix",org.m
+ ybatis.generator.codegen.ibatis2.dao.elements;version="1.3.2.fix",org
+ .mybatis.generator.internal.util;version="1.3.2.fix",org.mybatis.gene
+ rator.plugins;version="1.3.2.fix",org.mybatis.generator.codegen.mybat
+ is3.xmlmapper.elements;version="1.3.2.fix",org.mybatis.generator.code
+ gen.ibatis2.sqlmap.elements;version="1.3.2.fix",org.mybatis.generator
+ .internal.types;version="1.3.2.fix",org.mybatis.generator.exception;v
+ ersion="1.3.2.fix",org.mybatis.generator.codegen.ibatis2.dao;version=
+ "1.3.2.fix",org.mybatis.generator.codegen.mybatis3.model;version="1.3
+ .2.fix",org.mybatis.generator.codegen.mybatis3.javamapper;version="1.
+ 3.2.fix",org.mybatis.generator.internal.util.messages;version="1.3.2.
+ fix",org.mybatis.generator.config.xml;version="1.3.2.fix",org.mybatis
+ .generator.codegen.ibatis2.sqlmap;version="1.3.2.fix",org.mybatis.gen
+ erator.codegen.mybatis3;version="1.3.2.fix",org.mybatis.generator.cod
+ egen.mybatis3.javamapper.elements.sqlprovider;version="1.3.2.fix",org
+ .mybatis.generator.codegen.mybatis3.javamapper.elements;version="1.3.
+ 2.fix",org.mybatis.generator.internal.db;version="1.3.2.fix",org.myba
+ tis.generator.api.dom;version="1.3.2.fix",org.mybatis.generator.codeg
+ en;version="1.3.2.fix",org.mybatis.generator.codegen.mybatis3.javamap
+ per.elements.annotated;version="1.3.2.fix",org.mybatis.generator.logg
+ ing;version="1.3.2.fix",org.mybatis.generator.api.dom.java;version="1
+ .3.2.fix",org.mybatis.generator.codegen.ibatis2.model;version="1.3.2.
+ fix",org.mybatis.generator.internal;version="1.3.2.fix",org.mybatis.g
+ enerator.codegen.ibatis2;version="1.3.2.fix",org.mybatis.generator.co
+ nfig;version="1.3.2.fix",org.mybatis.generator.internal.rules;version
+ ="1.3.2.fix",org.mybatis.generator.api.dom.xml;version="1.3.2.fix",or
+ g.mybatis.generator.api;version="1.3.2.fix"
+Bundle-Version: 1.3.2.fix
+Bundle-Name: mybatis-generator-core
+Created-By: 1.8.0_91 (Oracle Corporation)
+
