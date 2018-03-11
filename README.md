@@ -1,6 +1,6 @@
 # MybitesGenerator定制化开发
 
-本源码已经配置好，可直接下载用maven打出jar包后替换mybatis-generator-core-1.3.2文件
+本源码已经配置好，可直接下载用maven打出jar包后替换你maven下载的mybatis-generator-core-1.3.2.jar文件 注意版本建议1.3.2
 
 如果需要更多定制化开发可以读源码增加自己的定制化开发。本项目添加了对swagger-ui的支持
 
