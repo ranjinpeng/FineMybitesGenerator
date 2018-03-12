@@ -3,7 +3,7 @@ Bundle-Description: The MyBatis parent POM.
 Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
 Bundle-SymbolicName: org.mybatis.generator.mybatis-generator-core
 Bundle-ManifestVersion: 2
-Bnd-LastModified: 1520739640654
+Bnd-LastModified: 1520837984419
 Bundle-DocURL: http://www.mybatis.org/mybatis-generator/mybatis-genera
  tor-core/
 Bundle-Vendor: MyBatis.org

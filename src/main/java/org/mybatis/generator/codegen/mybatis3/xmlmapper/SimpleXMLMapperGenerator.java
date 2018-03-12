@@ -51,7 +51,7 @@ public class SimpleXMLMapperGenerator extends AbstractXmlGenerator {
         addInsertElement(answer);
         addInsertSelectiveElement(answer);
         addUpdateByPrimaryKeyElement(answer);
-        addUpdateByExampleSelectiveElement(answer);
+        addUpdateByPrimaryKeySelectiveElement(answer);
         addSelectByPrimaryKeyElement(answer);
         addSelectAllElement(answer);
         return answer;
@@ -67,13 +67,13 @@ public class SimpleXMLMapperGenerator extends AbstractXmlGenerator {
             initializeAndExecuteGenerator(elementGenerator, parentElement);
         }
     }
-    protected void addUpdateByExampleSelectiveElement(XmlElement parentElement) {
-        if (introspectedTable.getRules().generateUpdateByExampleSelective()) {
-            AbstractXmlElementGenerator elementGenerator = new UpdateByExampleSelectiveElementGenerator();
+    protected void addUpdateByPrimaryKeySelectiveElement(
+            XmlElement parentElement) {
+        if (introspectedTable.getRules().generateUpdateByPrimaryKeySelective()) {
+            AbstractXmlElementGenerator elementGenerator = new UpdateByPrimaryKeySelectiveElementGenerator();
             initializeAndExecuteGenerator(elementGenerator, parentElement);
         }
     }
-
 
 
     protected void addResultMapElement(XmlElement parentElement) {
